@@ -74,6 +74,7 @@ export const Project = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div
       id="projects"
       className={`py-16 px-4 ${
@@ -88,6 +89,18 @@ export const Project = () => {
         >
           My Projects
         </h2>
+=======
+    <div id="projects" className="py-16 px-4">
+      <div className="container mx-auto ">
+        <div className="text-center mb-10">
+          <div className="inline-flex items-center gap-2 bg-[#FF6B7A]/10 px-4 py-2 rounded-full mb-4">
+            <div className="w-2 h-2 bg-[#FF6B7A] rounded-full animate-pulse"></div>
+            <span className="text-[#FF6B7A] font-semibold text-xl uppercase tracking-wider">
+              My Project
+            </span>
+          </div>
+        </div>
+>>>>>>> 5873b93 (up)
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (

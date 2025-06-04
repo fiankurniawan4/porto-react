@@ -68,6 +68,7 @@ export const Contact = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div
       id="contact"
       className={`py-16 px-4 ${
@@ -77,12 +78,27 @@ export const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-xl text-[#FF6B7A] font-bold">Contact Me</h2>
+=======
+    <div id="contact" className="py-16 px-4">
+      <div className="container mx-auto">
+        <div className="text-center mb-10">
+          <div className="inline-flex items-center gap-2 bg-[#FF6B7A]/10 px-4 py-2 rounded-full mb-4">
+            <div className="w-2 h-2 bg-[#FF6B7A] rounded-full animate-pulse"></div>
+            <span className="text-[#FF6B7A] font-semibold text-md uppercase tracking-wider">
+              About Me
+            </span>
+          </div>
+>>>>>>> 5873b93 (up)
           <h3
             className={`text-3xl font-bold ${
               theme === "dark" ? "text-white" : "text-gray-700"
             }`}
           >
+<<<<<<< HEAD
             Let&apos;s Get In Touch
+=======
+            Let&apos;s <span className="text-[#FF6B7A]">Get In Touch</span>
+>>>>>>> 5873b93 (up)
           </h3>
         </div>
 
