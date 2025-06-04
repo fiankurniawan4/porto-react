@@ -74,22 +74,6 @@ export const Project = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <div
-      id="projects"
-      className={`py-16 px-4 ${
-        theme === "dark" ? "bg-gray-900" : "bg-gray-50"
-      }`}
-    >
-      <div className="container mx-auto">
-        <h2
-          className={`text-3xl font-bold mb-8 text-center ${
-            theme === "dark" ? "text-white" : "text-gray-800"
-          }`}
-        >
-          My Projects
-        </h2>
-=======
     <div id="projects" className="py-16 px-4">
       <div className="container mx-auto ">
         <div className="text-center mb-10">
@@ -100,8 +84,6 @@ export const Project = () => {
             </span>
           </div>
         </div>
->>>>>>> 5873b93 (up)
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div

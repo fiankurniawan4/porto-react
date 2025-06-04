@@ -25,20 +25,11 @@ const AboutSection = () => {
     database: [
       { name: "MySQL", icon: Database, color: "#4479A1" },
       { name: "PostgreSQL", icon: Database, color: "#336791" },
-<<<<<<< HEAD
-      { name: "MongoDB", icon: Database, color: "#47A248" },
-=======
->>>>>>> 5873b93 (up)
     ],
     tools: [
       { name: "TypeScript", icon: Code, color: "#3178C6" },
       { name: "Git", icon: GitBranch, color: "#F05032" },
-<<<<<<< HEAD
-      { name: "Docker", icon: Layers, color: "#2496ED" },
-      { name: "API Design", icon: Globe, color: "#FF6B7A" },
-=======
       { name: "API", icon: Globe, color: "#FF6B7A" },
->>>>>>> 5873b93 (up)
     ],
   };
 
@@ -50,15 +41,9 @@ const AboutSection = () => {
   const displayedSkills = showAllSkills ? allSkills : allSkills.slice(0, 6);
 
   const achievements = [
-<<<<<<< HEAD
-    { number: "50+", label: "Projects Completed" },
-    { number: "3+", label: "Years Experience" },
-    { number: "15+", label: "Technologies Mastered" },
-=======
     { number: "20+", label: "Projects Completed" },
     { number: "1+", label: "Years Experience" },
     { number: "5+", label: "Technologies Mastered" },
->>>>>>> 5873b93 (up)
   ];
 
   return (
@@ -126,51 +111,30 @@ const AboutSection = () => {
                   theme === "dark" ? "text-white" : "text-gray-800"
                 }`}
               >
-<<<<<<< HEAD
-                Backend Developer &
-                <span className="text-[#FF6B7A]"> Problem Solver</span>
-=======
                 Backend Developer
->>>>>>> 5873b93 (up)
               </h4>
-
-              <div className="space-y-4">
-                <p
-                  className={`text-lg leading-relaxed ${
-                    theme === "dark" ? "text-gray-300" : "text-gray-600"
-                  }`}
-                >
-<<<<<<< HEAD
-                  Hello! I&#39;m Fian Kurniawan, a passionate backend developer
-                  with expertise in building scalable, secure, and efficient
-                  server-side applications. I specialize in creating robust APIs
-                  and database architectures that power modern web applications.
-=======
-                  Hello! I&#39;m Fian Kurniawan, a Backend Developer since in
-                  SMK School, I have been a backend developer since I was in
-                  vocational school, I graduated in 2024, my vocational school
-                  major was Software Engineering.
->>>>>>> 5873b93 (up)
-                </p>
-                <p
-                  className={`text-lg leading-relaxed ${
-                    theme === "dark" ? "text-gray-300" : "text-gray-600"
-                  }`}
-                >
-<<<<<<< HEAD
-                  With a strong foundation in multiple programming languages and
-                  frameworks, I enjoy tackling complex technical challenges and
-                  delivering solutions that make a real impact. I&#39;m always
-                  eager to learn new technologies and contribute to innovative
-                  projects.
-=======
-                  Why do I like Backend? Because when Covid-19 I created a
-                  server with my friend using VPS for Minecraft server where, my
-                  friend created the server and I developed the backend like
-                  features finance, shop, minigames, etc.
->>>>>>> 5873b93 (up)
-                </p>
-              </div>
+            </div>
+            <div className="space-y-4">
+              <p
+                className={`text-lg leading-relaxed ${
+                  theme === "dark" ? "text-gray-300" : "text-gray-600"
+                }`}
+              >
+                Hello! I&#39;m Fian Kurniawan, a passionate backend developer
+                with expertise in building scalable, secure, and efficient
+                server-side applications. I specialize in creating robust APIs
+                and database architectures that power modern web applications.
+              </p>
+              <p
+                className={`text-lg leading-relaxed ${
+                  theme === "dark" ? "text-gray-300" : "text-gray-600"
+                }`}
+              >
+                Why do I like Backend? Because when Covid-19 I created a server
+                with my friend using VPS for Minecraft server where, my friend
+                created the server and I developed the backend like features
+                finance, shop, minigames, etc.
+              </p>
             </div>
 
             {/* Achievement Stats */}

@@ -68,17 +68,6 @@ export const Contact = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <div
-      id="contact"
-      className={`py-16 px-4 ${
-        theme === "dark" ? "bg-gray-900" : "bg-gray-50"
-      }`}
-    >
-      <div className="container mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-xl text-[#FF6B7A] font-bold">Contact Me</h2>
-=======
     <div id="contact" className="py-16 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-10">
@@ -88,17 +77,12 @@ export const Contact = () => {
               About Me
             </span>
           </div>
->>>>>>> 5873b93 (up)
           <h3
             className={`text-3xl font-bold ${
               theme === "dark" ? "text-white" : "text-gray-700"
             }`}
           >
-<<<<<<< HEAD
-            Let&apos;s Get In Touch
-=======
             Let&apos;s <span className="text-[#FF6B7A]">Get In Touch</span>
->>>>>>> 5873b93 (up)
           </h3>
         </div>
 
