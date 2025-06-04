@@ -120,10 +120,10 @@ const AboutSection = () => {
                   theme === "dark" ? "text-gray-300" : "text-gray-600"
                 }`}
               >
-                Hello! I&#39;m Fian Kurniawan, a passionate backend developer
-                with expertise in building scalable, secure, and efficient
-                server-side applications. I specialize in creating robust APIs
-                and database architectures that power modern web applications.
+                Hello! I&#39;m Fian Kurniawan, a Backend Developer, i have been
+                a backend developer since 2019 (PHP). and learn Laravel in
+                vocational school. I graduated in 2024, my vocational school
+                major was Software Engineering.
               </p>
               <p
                 className={`text-lg leading-relaxed ${
@@ -131,9 +131,9 @@ const AboutSection = () => {
                 }`}
               >
                 Why do I like Backend? Because when Covid-19 I created a server
-                with my friend using VPS for Minecraft server where, my friend
-                created the server and I developed the backend like features
-                finance, shop, minigames, etc.
+                with my friend using VPS for Minecraft server (PHP) where, my
+                friend created the server and I developed the backend like
+                features finance, shop, minigames, etc.
               </p>
             </div>
 
