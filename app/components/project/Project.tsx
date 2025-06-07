@@ -98,6 +98,7 @@ export const Project = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   width={600}
                   height={340}
                   className="w-full h-full object-cover cursor-pointer"
