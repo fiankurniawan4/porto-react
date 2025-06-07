@@ -39,6 +39,7 @@ export default function Home() {
         <div className="hidden md:block pl-8">
           <Image
             src="/image/fian_nobg.png"
+            loading="lazy"
             width={700}
             height={700}
             alt="Profile"
