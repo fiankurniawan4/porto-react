@@ -88,6 +88,7 @@ const AboutSection = () => {
                   >
                     <Image
                       src="/image/fian_nobg.png"
+                      loading="lazy"
                       alt="Fian Kurniawan"
                       width={300}
                       height={300}
